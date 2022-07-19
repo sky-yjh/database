@@ -1,0 +1,4 @@
+CREATE TABLE db1.test_1(
+    field1 INT NOT NULL COMMENT "1",
+    field3 INT NOT NULL COMMENT "3",
+)
