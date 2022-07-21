@@ -15,14 +15,18 @@
             "group": "test"
         },
         {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
             "previewLimit": 50,
             "server": "localhost",
-            "port": 5432,
-            "driver": "PostgreSQL",
-            "name": "localhost",
-            "password": "123456",
-            "username": "postgres",
-            "database": "io_modle"
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "local",
+            "database": "db1",
+            "group": "local",
+            "username": "yjh",
+            "password": "123456"
         }
     ]
 }
